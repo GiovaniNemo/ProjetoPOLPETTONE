@@ -1,0 +1,89 @@
+.cabecalho {
+    background-color: black;
+    height: 8vw;
+}
+
+#logo {
+    position: relative;
+    height: 7vw;
+    left: 100px;
+    width: 10vw;
+    transition-duration: 1s;
+}
+
+.nav-bar {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    gap: 5vw;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 4.5vw;
+    right: 9vw;
+}
+
+nav > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgb(197, 171, 21);
+    transition-duration: 0.5s;
+}
+
+#img-conteudo {
+    position: relative;
+    width: 100%;
+    height: 50vw;
+}
+
+.conteudo {
+    position: relative;
+}
+
+.titulo {
+    position: absolute;
+    bottom: 33vw;
+    z-index: 1;
+    text-align: center;
+    transform: translate(34vw, 10vw);
+}
+
+.tittle {
+    color: white;
+    font-size: 3vw;
+    letter-spacing: 2vw;
+}
+
+.button {
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border-radius: 5vw;
+    height: 3vw;
+    width: 12vw;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1vw;
+}
+
+.button:hover {
+    background-color: rgb(209, 177, 33);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+}
+
+.sessao {
+    background-color:rgb(44, 2, 2);
+}
+
+.img-historia {
+    width: 50vw;
+    position: relative;
+    left: 27vw;
+}
+
