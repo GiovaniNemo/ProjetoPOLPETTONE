@@ -87,3 +87,12 @@ a:hover {
     left: 27vw;
 }
 
+@media screen and (max-width: 600px) {
+   #img-conteudo {
+    width: 98vw;
+    height: 114vw;
+    justify-content: center;
+    align-items: center;
+   }
+  }
+  
