@@ -69,6 +69,7 @@ a:hover {
     display: inline-block;
     white-space: nowrap;
     font-size: 1vw;
+    border-color: rgba(0, 0, 0, 0.548);
 }
 
 .button:hover {
@@ -89,8 +90,8 @@ a:hover {
 
 @media screen and (max-width: 600px) {
    #img-conteudo {
-    width: 98vw;
-    height: 114vw;
+    width: 150vw;
+    height: 180vw;
     justify-content: center;
     align-items: center;
    }
@@ -100,19 +101,19 @@ a:hover {
     .tittle {
         position: absolute;
         font-size: 8vw;
-        right: -30vw;
-        bottom: 15vw;
+        right: -28vw;
+        bottom: 35vw;
     }
 }
 
 @media screen and (max-width: 600px) {
     .button {
-        width: 23vw;
+        width: 25vw;
         height: 5vw;
         left: 5vw;
         font-size: 0.6em;
         position: relative;
-        bottom: 6vw;
+        bottom: 28vw;
     }
 }
 
@@ -135,7 +136,7 @@ a:hover {
 @media screen and (max-width: 600px) {
     .img-historia {
         width: 100%;
-        left: 2px;
+        left: 0.1px;
     }
 }
 
