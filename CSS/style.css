@@ -80,13 +80,18 @@ a:hover {
 
 .sessao {
     background-color:rgb(44, 2, 2);
+    padding: 3vw;
 }
 
 .img-historia {
     width: 50vw;
     position: relative;
-    left: 27vw;
+    left: 24vw;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.527);
 }
+
+
 
 @media screen and (max-width: 600px) {
    #img-conteudo {
@@ -139,6 +144,7 @@ a:hover {
         left: 0.1px;
     }
 }
+
 
 
 
