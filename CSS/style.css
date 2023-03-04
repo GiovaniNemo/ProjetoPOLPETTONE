@@ -90,7 +90,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
    #img-conteudo {
-    width: 150vw;
+    width: 100vw;
     height: 180vw;
     justify-content: center;
     align-items: center;
