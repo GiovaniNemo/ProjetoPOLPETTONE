@@ -8,7 +8,7 @@
     height: 7vw;
     left: 100px;
     width: 10vw;
-    transition-duration: 1s;
+    transition-duration: 0.1s;
 }
 
 .nav-bar {
@@ -95,4 +95,49 @@ a:hover {
     align-items: center;
    }
   }
-  
+
+@media screen and (max-width: 600px) {
+    .tittle {
+        position: absolute;
+        font-size: 8vw;
+        right: -30vw;
+        bottom: 15vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .button {
+        width: 23vw;
+        height: 5vw;
+        left: 5vw;
+        font-size: 0.6em;
+        position: relative;
+        bottom: 6vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav > li > a {
+        font-size: 0.7em;
+        bottom: 2vw;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #logo {
+        position: relative;
+        left: 10vw;
+        height: 8vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .img-historia {
+        width: 100%;
+        left: 2px;
+    }
+}
+
+
+
