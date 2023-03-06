@@ -1,3 +1,7 @@
+body {
+    background-color:rgb(44, 2, 2);
+}
+
 .cabecalho {
     background-color: black;
     height: 8vw;
@@ -54,7 +58,7 @@ a:hover {
     transform: translate(34vw, 10vw);
 }
 
-.tittle {
+.title {
     color: white;
     font-size: 3vw;
     letter-spacing: 2vw;
@@ -91,7 +95,31 @@ a:hover {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.527);
 }
 
+.img-cardapio {
+    padding: 2vw;
+    border-radius: 50%;
+    height: 15vw;
+}
 
+.title-cardapio {
+    color: black;
+}
+
+.sessao2 {
+    background-color: azure;
+    text-align: center;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    border-radius: 15px;
+    padding: 2px;
+    margin: 2vw;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.527);
+}
+
+.menu {
+    font-size: 2vw;
+}
 
 @media screen and (max-width: 600px) {
    #img-conteudo {
@@ -103,7 +131,7 @@ a:hover {
   }
 
 @media screen and (max-width: 600px) {
-    .tittle {
+    .title {
         position: absolute;
         font-size: 8vw;
         right: -28vw;
