@@ -118,7 +118,7 @@ a:hover {
     position: relative;
     left: 25vw;
     border-radius: 15px;
-    padding: 2px;
+    padding: 16px;
     margin: 2vw;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.527);
 }
@@ -139,6 +139,45 @@ a:hover {
 #espaco-lasagna {
     text-indent: -10px;
 }
+
+.sessao3 {
+    background-color: black;
+    text-align: center;
+}
+
+#contatos {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+label {
+   color: white;
+   top: 0%;
+   left: 0%;
+   padding: 2px;
+}
+
+input {
+    width: 20%;
+    height: 2vw;
+    margin: 1vw;
+    
+}
+
+.input-email {
+    margin-left: 1%;
+}
+
+.input-phone {
+    margin-left: 0.6%;
+}
+
+.input-message {
+    margin-left: 0%;
+    height: 6vw;
+}
+
 
 @media screen and (max-width: 600px) {
    #img-conteudo {
