@@ -85,7 +85,7 @@ a:hover {
     transition-duration: 0.5s;
 }
 
-.sessao {
+#sessao {
     background-color:rgb(44, 2, 2);
     padding: 3vw;
 }
@@ -111,7 +111,7 @@ a:hover {
     font-size: 3vw;
 }
 
-.sessao2 {
+#sessao2 {
     background-color: azure;
     text-align: center;
     width: 50vw;
@@ -140,7 +140,7 @@ a:hover {
     text-indent: -10px;
 }
 
-.sessao3 {
+#sessao3 {
     background-color: black;
     text-align: center;
 }
@@ -279,7 +279,7 @@ form {
 }
 
 @media screen and (max-width: 600px) {
-    .sessao2 {
+    #sessao2 {
         width: 90vw;
         left: 7px;
     }
