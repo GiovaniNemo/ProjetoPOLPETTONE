@@ -16,7 +16,7 @@
       <nav>
         <li><a href="#">História</a></li>
         <li><a href="#">Menu</a></li>
-        <li><a href="#">Franqueado</a></li>
+        <li><a href="franq.html">Franqueado</a></li>
         <li><a href="#">Contatos</a></li>
       </nav>
     </ul>
@@ -25,7 +25,7 @@
     <img id="img-conteudo" src="CSS/img/pexels-fox-750843.jpg" alt="background">
     <div class="titulo">
       <h1 class="title">POLPETTONE</h1>
-      <button class="button">Seja um Franqueado</button>
+      <button class="button"><a id="franqueado" href="franq.html">Seja um Franquado</a></button>
     </div>
   </main>
   <section class="sessao">
@@ -56,19 +56,28 @@
     <p class="menu">Sucos Naturais __________________R$7</p>
   </section>
   <section class="sessao3">
+    <img class="logo-contatos" src="CSS/img/Vintage and Classic Coffee Shop Ornamental Decorative Logo.png" alt="">
     <h1 id="contatos">Contatos</h1>
-    <label for="name">Nome</label>
-    <input class="input" type="text" name="nome" placeholder="Nome">
-    <br>
-    <label for="e-mail">E-mail</label>
-    <input class="input-email" type="text" name="e-mail" placeholder="E-mail">
-    <br>
-    <label for="phone">Telefone</label>
-    <input class="input-phone" type="text" name="phone" placeholder="Telefone">
-    <br>
-    <label for="message">Mensagem</label>
-    <input class="input-message" type="text" name="message">
+    <p class="contatos">Preencha o formulário abaixo corretamente para que possamos <br> ouvi-los e aprimorar nosso relacionamento!</p>
+    <form action="#" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" name="telefone">
+    
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+    
+      <button type="submit">Enviar</button>
+    </form>    
   </section>
+  <footer>
+    <p class="rodape">&copy Copyright 2023 - Polpettone</p>
+  </footer>
   <script src="./JS/script.js"></script>  
 </body>
 </html>
