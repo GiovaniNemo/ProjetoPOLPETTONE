@@ -227,12 +227,18 @@ form {
     color: black;
   }
 
+  .menu {
+    text-indent: 2em;
+  }
+
 @media screen and (max-width: 600px) {
    #img-conteudo {
     width: 100vw;
     height: 180vw;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center top;
    }
   }
 
@@ -304,7 +310,3 @@ form {
         width: 93%;
     }
 }
-
-
-
-
