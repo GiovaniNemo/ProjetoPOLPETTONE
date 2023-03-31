@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="shortcut icon" href="CSS/img/favicon.ico" type="image/x-icon">
     <title>Restaurant Polpettone</title>
@@ -12,7 +13,8 @@
 <body>
   <header class="cabecalho">
     <img id="logo" src="CSS/img/Vintage and Classic Coffee Shop Ornamental Decorative Logo.png" alt="">
-    <ul class="nav-bar">
+    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <ul id="menu" class="nav-bar">
       <nav>
         <li><a href="#sessao">História</a></li>
         <li><a href="#sessao2">Menu</a></li>
@@ -35,25 +37,25 @@
   <img class="img-cardapio" src="CSS/img/Vintage and Classic Coffee Shop Ornamental Decorative Logo.png" alt="">
     <h1 class="title-cardapio">Menu</h1>
     <br>
-    <p class="menu">Amatriciana _____________________R$43</p>
-    <p class="menu">Alfredo __________________________R$40</p>
-    <p class="menu">Spaghetti ________________________R$29</p>
-    <p class="menu">Salad _____________________________R$13</p>
-    <P class="menu">Lasagna __________________________R$26</P>
-    <p class="menu">Croassant _________________________R$12</p>
-    <p class="menu">Raviolli ___________________________R$37</p>
-    <p class="menu">Arancino _________________________R$29</p>
-    <p class="menu">Polpettone _______________________R$67</p>
-    <p class="menu">Risotto ___________________________R$30</p>
+    <p class="itens">Amatriciana _____________________R$43</p>
+    <p class="itens">Alfredo __________________________R$40</p>
+    <p class="itens">Spaghetti ________________________R$29</p>
+    <p class="itens">Salad _____________________________R$13</p>
+    <P class="itens">Lasagna __________________________R$26</P>
+    <p class="itens">Croassant _________________________R$12</p>
+    <p class="itens">Raviolli ___________________________R$37</p>
+    <p class="itens">Arancino _________________________R$29</p>
+    <p class="itens">Polpettone _______________________R$67</p>
+    <p class="itens">Risotto ___________________________R$30</p>
     <br>
     <h1>Bebidas</h1>
-    <p class="menu">Negroni _________________________R$19</p>
-    <p class="menu">Limoncello _______________________R$11</p>
-    <p class="menu">Garibaldi _________________________R$15</p>
-    <p class="menu">Amaro ____________________________R$3</p>
-    <p class="menu">Água ______________________________R$4</p>
-    <p class="menu">Refrigerante 350ml _______________R$4</p>
-    <p class="menu">Sucos Naturais ____________________R$7</p>
+    <p class="itens">Negroni _________________________R$19</p>
+    <p class="itens">Limoncello _______________________R$11</p>
+    <p class="itens">Garibaldi _________________________R$15</p>
+    <p class="itens">Amaro ____________________________R$3</p>
+    <p class="itens">Água ______________________________R$4</p>
+    <p class="itens">Refrigerante 350ml _______________R$4</p>
+    <p class="itens">Sucos Naturais ____________________R$7</p>
   </section>
   <section id="sessao3">
     <img class="logo-contatos" src="CSS/img/Vintage and Classic Coffee Shop Ornamental Decorative Logo.png" alt="">
@@ -78,6 +80,6 @@
   <footer>
     <p class="rodape">&copy Copyright 2023 - Polpettone</p>
   </footer>
-  <script src="./JS/script.js"></script>  
+<script src="JS/script.js"></script>
 </body>
 </html>
