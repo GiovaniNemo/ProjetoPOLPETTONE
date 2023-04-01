@@ -11,10 +11,11 @@ body {
 
 #logo {
     position: relative;
-    height: 7vw;
+    height: 9vw;
     left: 100px;
     width: 10vw;
     transition-duration: 0.1s;
+    bottom: 0.8vw;
 }
 
 .nav-bar {
@@ -26,7 +27,7 @@ nav {
     gap: 5vw;
     justify-content: flex-end;
     position: relative;
-    bottom: 4.6vw;
+    bottom: 6.5vw;
     right: 9vw;
 }
 
@@ -248,6 +249,21 @@ form {
     color: rgb(197, 171, 21);
   }
 
+  #voltar {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #000000;
+    text-shadow: none;
+    color: #fff;
+    font-size: 3vw;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  
+
 @media screen and (max-width: 600px) {
    #img-conteudo {
     width: 100vw;
@@ -366,5 +382,11 @@ form {
     nav > li > a {
         font-size: 0.8em;
         bottom: 6vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #voltar {
+        display: none;
     }
 }
