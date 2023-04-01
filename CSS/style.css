@@ -35,6 +35,7 @@ nav > li > a {
     color: white;
     font-size: 1.5vw;
     font-weight: 700;
+    display: block;
 }
 
 a:hover {
@@ -269,20 +270,21 @@ form {
 
 @media screen and (max-width: 600px) {
     .button {
-        width: 25vw;
-        height: 5vw;
+        width: 29vw;
+        height: 8vw;
         left: 5vw;
-        font-size: 0.7em;
+        font-size: 0.9em;
         position: relative;
         bottom: 28vw;
+        font-weight: 500;
     }
 }
 
 @media screen and (max-width: 600px) {
     nav > li > a {
         font-size: 0.7em;
-        bottom: 2vw;
-        position: relative;    
+        bottom: 0.5vw;
+        position: relative;   
     }
 }
 
@@ -333,6 +335,16 @@ form {
         top: 6px;
         left: 90vw;
         font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #burguer {
+        display: none;
+    }
+
+    nav > li > a {
+        display: block;
     }
 }
 
