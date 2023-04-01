@@ -263,36 +263,38 @@ form {
     .title {
         position: absolute;
         font-size: 8vw;
-        right: -28vw;
+        right: -10vw;
         bottom: 35vw;
     }
 }
 
 @media screen and (max-width: 600px) {
     .button {
-        width: 29vw;
-        height: 8vw;
-        left: 5vw;
+        width: 45vw;
+        height: 10vw;
+        left: 0vw;
         font-size: 0.9em;
         position: relative;
-        bottom: 28vw;
+        bottom: 25vw;
         font-weight: 500;
     }
 }
 
 @media screen and (max-width: 600px) {
     nav > li > a {
-        font-size: 0.7em;
-        bottom: 0.5vw;
-        position: relative;   
+        font-size: 0.9em;
+        bottom: 5vw;
+        position: relative;  
+        right: 3vw; 
     }
 }
 
 @media screen and (max-width: 600px) {
     #logo {
         position: relative;
-        left: 10vw;
-        height: 8vw;
+        left: 4vw;
+        height: 7vh;
+        width: 16vw;
     }
 }
 
@@ -332,7 +334,7 @@ form {
 @media screen and (max-width: 600px) {
     #burguer {
         position: absolute;
-        top: 6px;
+        top: 3.7vw;
         left: 90vw;
         font-size: 35px;
     }
@@ -348,3 +350,21 @@ form {
     }
 }
 
+@media screen and (max-width: 412px) {
+    #burguer {
+        top: 2.8vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cabecalho {
+        height: 15vw;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    nav > li > a {
+        font-size: 0.8em;
+        bottom: 6vw;
+    }
+}
