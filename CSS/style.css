@@ -2,6 +2,8 @@
 
 body {
     background-color:rgb(44, 2, 2);
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .cabecalho {
@@ -266,12 +268,8 @@ form {
 
 @media screen and (max-width: 600px) {
    #img-conteudo {
-    width: 100vw;
-    height: 180vw;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center top;
+    width: 96.7vw;
+    height: 92vh;
    }
   }
 
@@ -279,7 +277,7 @@ form {
     .title {
         position: absolute;
         font-size: 8vw;
-        right: -10vw;
+        right: -6vw;
         bottom: 35vw;
     }
 }
@@ -288,7 +286,7 @@ form {
     .button {
         width: 45vw;
         height: 10vw;
-        left: 0vw;
+        left: -6.5vw;
         font-size: 0.9em;
         position: relative;
         bottom: 25vw;
@@ -299,7 +297,7 @@ form {
 @media screen and (max-width: 600px) {
     nav > li > a {
         font-size: 0.9em;
-        bottom: 5vw;
+        bottom: 4vw;
         position: relative;  
         right: 3vw; 
     }
@@ -309,8 +307,9 @@ form {
     #logo {
         position: relative;
         left: 4vw;
-        height: 7vh;
+        height: 9vh;
         width: 16vw;
+        top: -1vw;
     }
 }
 
@@ -382,6 +381,7 @@ form {
     nav > li > a {
         font-size: 0.8em;
         bottom: 6vw;
+
     }
 }
 
